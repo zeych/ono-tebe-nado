@@ -13,6 +13,4 @@
 * Flexbox компоновка/верстка
 * CSS Grid Layout
   
-
-=======
 https://github.com/zeych/ono-tebe-nado.git

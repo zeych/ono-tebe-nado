@@ -27,6 +27,7 @@
  
  .header__link_active {
    border-bottom: none;
+   pointer-events: none;
  }
 
  .header__logo {
@@ -72,8 +73,7 @@
  
  .overlay {
    position: absolute;
-   background: rgba(0, 0, 0, 1);
-   opacity: 60%;
+   background-color: rgba(0 0 0 / 0.6);
    inset: 0;
    z-index: 1;
  }
@@ -270,7 +270,6 @@
    padding: 0 50px 91px;
 }
 
-
 .footer__menu {
    display: flex;
    flex-direction: column;
@@ -285,10 +284,15 @@
    list-style: none;
 }
 
-.footer__menu-link_active {
+.footer__menu-link {
    text-decoration: none;
+   border-bottom: 1px solid;
 }
 
+.footer__menu-link_active {
+   border-bottom: none;
+   pointer-events: none
+}
 
 .footer__social-list {
    display: flex;
